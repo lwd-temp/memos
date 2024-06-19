@@ -153,7 +153,7 @@ devDependencies:
     version: 5.2.3
   nice-grpc-web:
     specifier: ^3.3.3
-    version: 3.3.3(ws@8.17.0)
+    version: 3.3.3(ws@8.17.1)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -3579,12 +3579,12 @@ packages:
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  /isomorphic-ws@5.0.0(ws@8.17.0):
+  /isomorphic-ws@5.0.0(ws@8.17.1):
     resolution: {integrity: sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==}
     peerDependencies:
       ws: '*'
     dependencies:
-      ws: 8.17.0
+      ws: 8.17.1
     dev: true
 
   /iterator.prototype@1.1.2:
@@ -4129,11 +4129,11 @@ packages:
       ts-error: 1.0.6
     dev: true
 
-  /nice-grpc-web@3.3.3(ws@8.17.0):
+  /nice-grpc-web@3.3.3(ws@8.17.1):
     resolution: {integrity: sha512-sVz8n3tRwk8Iy8Lppek0qD1HFGexvy0915/uiXfQvOTUDHCsTJqcIEjmSQWLO6FZtZMwVMtPXrs9WZMNDrkcyQ==}
     dependencies:
       abort-controller-x: 0.4.3
-      isomorphic-ws: 5.0.0(ws@8.17.0)
+      isomorphic-ws: 5.0.0(ws@8.17.1)
       js-base64: 3.7.7
       nice-grpc-common: 2.0.2
     transitivePeerDependencies:
@@ -5394,8 +5394,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  /ws@8.17.0:
-    resolution: {integrity: sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==}
+  /ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
